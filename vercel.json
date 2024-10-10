@@ -4,8 +4,16 @@
     },
     "rewrites": [
       {
-        "source": "/api/(.*)",
-        "destination": "/api"
+        "source": "/Rasim_Abiyev_CV_EN.pdf",
+        "destination": "/Rasim_Abiyev_CV_EN.pdf"
+      },
+      {
+        "source": "/Rasim_Abiyev_CV_AZ.pdf",
+        "destination": "/Rasim_Abiyev_CV_AZ.pdf"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/"
       }
     ]
   }  
